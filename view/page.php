@@ -28,14 +28,35 @@
 
     
     .logo {
-      width: 550px;
-      margin-top: -120px
+      width: 450px;
+      margin-top: -110px
     }
     .section-1 {
       background-color: black;
-      padding-top: -150px;
+      padding-top: -100px;
       padding-bottom: 0;
       height: 100vh;
+    }
+
+    .section-1 h1 {
+      margin-top: -50px; 
+      font-size: 48px; 
+    }
+
+    .scroll-down {
+      font-family: 'Arial', sans-serif;
+      position: absolute;
+      bottom: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: transparent;
+      border: 2px solid white;
+      padding: 20px 45px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 16px;
+      cursor: pointer;
+      
     }
 
     .section-2 {
