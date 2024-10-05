@@ -14,10 +14,12 @@
       src: url('../assets/fonts/Migra-Extrabold.ttf') format('truetype');
       font-weight: bold;
       font-style: bold;
+      
     }
 
     body {
       font-family: 'Migra-Extrabold';
+      color: #ffff;
     }
 
     .section {
@@ -42,8 +44,8 @@
   <!-- Section 1 -->
   <section class="section section-1 text-center">
     <div class="container">
-      <h1 class="display-4">RAISING A GENERATION OF KINGDOM MINDED CHRISTIAN LEADERS</h1>
-      <p>This is the first section of the website.</p>
+      <h1 class="display-4">Raising a generation <br>  of kingdom-minded <br> business leaders</h1>
+     
     </div>
   </section>
 
