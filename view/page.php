@@ -26,8 +26,16 @@
       padding: 50px;
     }
 
+    
+    .logo {
+      width: 550px;
+      margin-top: -120px
+    }
     .section-1 {
-      background-color: #f5f5f5;
+      background-color: black;
+      padding-top: -150px;
+      padding-bottom: 0;
+      height: 100vh;
     }
 
     .section-2 {
@@ -44,7 +52,9 @@
   <!-- Section 1 -->
   <section class="section section-1 text-center">
     <div class="container">
-      <h1 class="display-4">Raising a generation <br>  of kingdom-minded <br> business leaders</h1>
+    <img src="../assets/images/unearthed_no_background.png" alt="Logo" class="logo">
+    <h1 class="display-4">Raising a generation <br>  of kingdom-minded <br> business leaders</h1>
+    <button class="scroll-down">scroll down</button>
      
     </div>
   </section>
