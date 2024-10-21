@@ -80,7 +80,7 @@
 
     .logo {
       width: 550px;
-      margin-top: -100px;
+      margin-top: -200px;
       margin-left: 5%;
       filter: brightness(1.2); /* Make the logo brighter */
       /*box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); Add a shadow to create a bold effect*/
@@ -117,7 +117,7 @@
     }
 
     .section-1 h1 {
-      margin-top: -40px; 
+      margin-top: -90px; 
       font-size: 48px; 
       animation: fadeIn 5s ease forwards; /* Increased duration to 1.5s */
       animation-delay: 0.5s; /* Delay the text fade-in */
@@ -418,7 +418,7 @@ p {
       <div class="col-md-4" style="padding-right: 1px;">
         <img src="../assets/images/picture_4.jpg" alt="Learn"  class="img-fluid fly-in-image" style="max-width: 90%;height: 250px; object-fit: cover;">>
         <h5 class="mt-2 fly-in-text" >Learn</h5>
-        <p class="fly-in-text">Engage in active learning experience in our curated events.</p>
+        <p class="fly-in-text" style="font-size: 20px;">Engage in active learning experience in our curated events.</p>
       </div>
 
       <div class="col-md-4">
@@ -473,30 +473,38 @@ p {
 
 <section class="section section-6 text-center">
   <div class="container">
-    <div class="card-2" style="display: flex; flex-direction: column; align-items: center; padding-left:5%"> 
-      <div class="card-content" > 
-        <h1 class="display-4 about-title" style="font-size: 58px; color: #fff; text-shadow: 1px 1px 2px #fff; margin-top: 65px; padding-right: 10%;">
+    <div class="card-2" style="display: flex; flex-direction: column; align-items: center;"> 
+      <div class="card-content" style="display: flex; flex-direction: column; align-items: center;"> 
+        <!-- Contact Us Title -->
+        <h1 class="display-4 about-title" style="font-size: 58px; color: #fff; text-shadow: 1px 1px 2px #fff; margin-top: 65px;">
           Contact Us
         </h1>
         
-        <p class="about-text" style="font-size: 25px; line-height: 1.5; margin-top: 35px; font-weight: bold; color: #fff;">
-          Mailing Address<br>
-          <span class="about-text" style="font-size: 20px; font-weight: bold; color: #fff;">P.O. Box GP 4631, Accra</span>
-        </p>
+        <!-- Contact Details: Vertically aligned and centered -->
+        <div style="margin-top: 35px; text-align: center;">
+          <!-- Mailing Address -->
+          <p class="about-text" style="font-size: 25px; line-height: 1.5; font-weight: bold; color: #fff;">
+            Mailing Address <br>
+            <span class="about-text" style="font-size: 20px; font-weight: bold; color: #fff;">P.O. Box GP 4631, Accra</span>
+          </p>
 
-        <p class="about-text" style="font-size: 25px; line-height: 1.5; font-weight: bold; color: #fff;">
-          Email Address <br>
-          <span class="about-text" style="font-size: 20px; font-weight: bold; color: #fff; margin-top:-5%">unearthedaccra@gmail.com</span>
-        </p>
+          <!-- Email Address -->
+          <p class="about-text" style="font-size: 25px; line-height: 1.5; font-weight: bold; color: #fff;">
+            Email Address <br>
+            <span class="about-text" style="font-size: 20px; font-weight: bold; color: #fff;">unearthedaccra@gmail.com</span>
+          </p>
 
-        <p class="about-text" style="font-size: 25px; line-height: 1.5; font-weight: bold; color: #fff;">
-          Phone Number <br>
-          <span class="about-text" style="font-size: 20px; font-weight: bold; color: #fff;">(233) 540 827 496</span>
-        </p>
+          <!-- Phone Number -->
+          <p class="about-text" style="font-size: 25px; line-height: 1.5; font-weight: bold; color: #fff;">
+            Phone Number <br>
+            <span class="about-text" style="font-size: 20px; font-weight: bold; color: #fff;">(233) 540 827 496</span>
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
