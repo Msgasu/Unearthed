@@ -35,6 +35,40 @@
       color: black;
     }
 
+    nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #e0e0e0; /* Light text for links */
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
     .content {
       padding: 60px; /* Add padding to prevent overlap */
     }
@@ -407,12 +441,20 @@ p {
 </head>
 <body>
 
-  <div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#section1">Section 1</a>
-    <a href="#section2">Section 2</a>
-    <a href="#section3">Section 3</a>
-  </div>
+    <nav>     
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+          <a href="#section1">About us</a>
+          <a href="#section2">Our work</a>
+          <a href="#section3">Motivation</a>
+          <a href="#section3">Quote</a>
+          <a href="#section3">Contact us</a></nav>
+        </li>
+      </ul>
+      
+
+
 
   <!-- Section 1 -->
   <section  id="home" class="section section-1 text-center">
